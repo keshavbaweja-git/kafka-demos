@@ -1,0 +1,7 @@
+spring.cloud.stream:
+  bindings:
+    process-in-0:
+      destination: "topic1"
+  kafka.streams.binder:
+    brokers: "localhost:9092"
+    applicationId: "demo1"
